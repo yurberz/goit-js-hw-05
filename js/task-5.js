@@ -6,10 +6,10 @@ class Car {
     );
   }
 
-  constructor(obgect, speed = 0, isOn = false, distance = 0) {
+  constructor(object, speed = 0, isOn = false, distance = 0) {
     this.speed = speed;
-    this._price = obgect.price;
-    this.maxSpeed = obgect.maxSpeed;
+    this._price = object.price;
+    this.maxSpeed = object.maxSpeed;
     this.isOn = isOn;
     this.distance = distance;
   }
